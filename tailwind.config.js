@@ -1,12 +1,17 @@
+
+const { platformSelect } = require('nativewind/dist/theme-functions')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./App.{js,jsx,ts,tsx}', './components/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
-        'off-white': {
-          DEFAULT: '#E3E3E3',
-        },
+        'platform-color': platformSelect({
+          ios: "green",
+          android: "blue",
+          default: "black"
+        }),
         dark: {
           DEFAULT: '#1C1C1E',
         },

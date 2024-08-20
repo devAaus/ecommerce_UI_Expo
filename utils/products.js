@@ -1,4 +1,4 @@
-import v2k from '../assets/shoes/v2k.png'
+import dunk_low_retro from '../assets/shoes/dunk_low_retro.png'
 import jordan_1_retro from '../assets/shoes/jordan_1_retro.png'
 import jordan_1_low from '../assets/shoes/jordan_1_low.png'
 import jordan_4_retro from '../assets/shoes/jordan_4_retro.png'
@@ -13,11 +13,11 @@ import jordan_4_retro_oxidized from '../assets/shoes/jordan_4_retro_oxidized.png
 export const products = [
    {
       id: 1,
-      name: 'Nike V2K Run',
-      description: "Fast forward. Rewind. Doesn't matter—this shoe takes retro into the future. The V2K remasters everything you love about the Vomero in a look pulled straight from an early '00s running catalogue. Layer up in a mixture of flashy metallics, breathable mesh and a midsole with a perfectly aged aesthetic. The dual-density foam midsole and chunky heel make sure wherever you go, it's in comfort.",
-      price: '120',
-      image: v2k,
-      favourite: false
+      name: 'Nike Dunk Low Retro',
+      description: "Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colors. This basketball icon channels '80s vibes with premium leather in the upper that looks good and breaks in even better. Modern footwear technology helps bring the comfort into the 21st century..",
+      price: '115',
+      image: dunk_low_retro,
+      favourite: true
    },
    {
       id: 2,

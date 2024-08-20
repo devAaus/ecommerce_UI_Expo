@@ -8,10 +8,10 @@ export default function Card({ image, name, price, column_width }) {
             source={image}
             className='m-5 h-56 w-full mx-auto object-cover bg-slate-500 rounded-lg'
          />
-         <Text className='text-dark mb-3'>
+         <Text className='text-dark dark:text-white mb-3'>
             {name.substring(0, 20) + '...'}
          </Text>
-         <Text className='text-dark font-bold'>
+         <Text className='text-dark dark:text-white font-bold'>
             ${price}
          </Text>
       </View>
