@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, Text, View } from 'react-native';
 import CardList from './components/CardList';
+import Navbar from './components/Navbar';
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <StatusBar style="auto" />
       <SafeAreaView />
       <CardList />
+      <Navbar />
     </View>
   );
 }
